@@ -1,0 +1,20 @@
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '<>';
+}
+a {
+    text-decoration: none !important;
+}
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: bisque;
+    border-radius: 0px;
+}
+select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.form-control:focus {
+    box-shadow: none;
+}
